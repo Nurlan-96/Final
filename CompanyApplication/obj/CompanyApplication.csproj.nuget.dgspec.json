@@ -1,0 +1,304 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication\\CompanyApplication.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Business\\CompanyApplication.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Business\\CompanyApplication.Business.csproj",
+        "projectName": "CompanyApplication.Business",
+        "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Business\\CompanyApplication.Business.csproj",
+        "packagesPath": "C:\\Users\\Uncle Nurlan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Uncle Nurlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.DataContext\\CompanyApplication.DataContext.csproj": {
+                "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.DataContext\\CompanyApplication.DataContext.csproj"
+              },
+              "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\CompanyApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\CompanyApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.DataContext\\CompanyApplication.DataContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.DataContext\\CompanyApplication.DataContext.csproj",
+        "projectName": "CompanyApplication.DataContext",
+        "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.DataContext\\CompanyApplication.DataContext.csproj",
+        "packagesPath": "C:\\Users\\Uncle Nurlan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.DataContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Uncle Nurlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\CompanyApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\CompanyApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\CompanyApplication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\CompanyApplication.Domain.csproj",
+        "projectName": "CompanyApplication.Domain",
+        "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\CompanyApplication.Domain.csproj",
+        "packagesPath": "C:\\Users\\Uncle Nurlan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Uncle Nurlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Utilities\\CompanyApplication.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Utilities\\CompanyApplication.Utilities.csproj",
+        "projectName": "CompanyApplication.Utilities",
+        "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Utilities\\CompanyApplication.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Uncle Nurlan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Uncle Nurlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication\\CompanyApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication\\CompanyApplication.csproj",
+        "projectName": "CompanyApplication",
+        "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication\\CompanyApplication.csproj",
+        "packagesPath": "C:\\Users\\Uncle Nurlan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Uncle Nurlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Business\\CompanyApplication.Business.csproj": {
+                "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Business\\CompanyApplication.Business.csproj"
+              },
+              "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\CompanyApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Domain\\CompanyApplication.Domain.csproj"
+              },
+              "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Utilities\\CompanyApplication.Utilities.csproj": {
+                "projectPath": "C:\\Users\\Uncle Nurlan\\Desktop\\CompanyApplication\\CompanyApplication.Utilities\\CompanyApplication.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

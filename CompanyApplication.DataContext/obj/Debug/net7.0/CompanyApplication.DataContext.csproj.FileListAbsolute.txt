@@ -1,0 +1,15 @@
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\bin\Debug\net7.0\CompanyApplication.DataContext.deps.json
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\bin\Debug\net7.0\CompanyApplication.DataContext.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\bin\Debug\net7.0\CompanyApplication.DataContext.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\bin\Debug\net7.0\CompanyApplication.Domain.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\bin\Debug\net7.0\CompanyApplication.Domain.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\CompanyApplication.DataContext.csproj.AssemblyReference.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\CompanyApplication.DataContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\CompanyApplication.DataContext.AssemblyInfoInputs.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\CompanyApplication.DataContext.AssemblyInfo.cs
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\CompanyApplication.DataContext.csproj.CoreCompileInputs.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\CompanyApplication.DataContext.csproj.CopyComplete
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\CompanyApplication.DataContext.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\refint\CompanyApplication.DataContext.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\CompanyApplication.DataContext.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.DataContext\obj\Debug\net7.0\ref\CompanyApplication.DataContext.dll

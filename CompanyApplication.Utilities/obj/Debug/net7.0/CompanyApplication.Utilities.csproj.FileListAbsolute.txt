@@ -1,0 +1,11 @@
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\bin\Debug\net7.0\CompanyApplication.Utilities.deps.json
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\bin\Debug\net7.0\CompanyApplication.Utilities.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\bin\Debug\net7.0\CompanyApplication.Utilities.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\obj\Debug\net7.0\CompanyApplication.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\obj\Debug\net7.0\CompanyApplication.Utilities.AssemblyInfoInputs.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\obj\Debug\net7.0\CompanyApplication.Utilities.AssemblyInfo.cs
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\obj\Debug\net7.0\CompanyApplication.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\obj\Debug\net7.0\CompanyApplication.Utilities.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\obj\Debug\net7.0\refint\CompanyApplication.Utilities.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\obj\Debug\net7.0\CompanyApplication.Utilities.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Utilities\obj\Debug\net7.0\ref\CompanyApplication.Utilities.dll

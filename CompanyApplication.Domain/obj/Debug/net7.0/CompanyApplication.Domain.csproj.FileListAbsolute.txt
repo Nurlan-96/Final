@@ -1,0 +1,11 @@
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\bin\Debug\net7.0\CompanyApplication.Domain.deps.json
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\bin\Debug\net7.0\CompanyApplication.Domain.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\bin\Debug\net7.0\CompanyApplication.Domain.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\obj\Debug\net7.0\CompanyApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\obj\Debug\net7.0\CompanyApplication.Domain.AssemblyInfoInputs.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\obj\Debug\net7.0\CompanyApplication.Domain.AssemblyInfo.cs
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\obj\Debug\net7.0\CompanyApplication.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\obj\Debug\net7.0\CompanyApplication.Domain.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\obj\Debug\net7.0\refint\CompanyApplication.Domain.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\obj\Debug\net7.0\CompanyApplication.Domain.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Domain\obj\Debug\net7.0\ref\CompanyApplication.Domain.dll

@@ -1,0 +1,17 @@
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\bin\Debug\net7.0\CompanyApplication.Business.deps.json
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\bin\Debug\net7.0\CompanyApplication.Business.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\bin\Debug\net7.0\CompanyApplication.Business.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\bin\Debug\net7.0\CompanyApplication.DataContext.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\bin\Debug\net7.0\CompanyApplication.Domain.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\bin\Debug\net7.0\CompanyApplication.DataContext.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\bin\Debug\net7.0\CompanyApplication.Domain.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\CompanyApplication.Business.csproj.AssemblyReference.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\CompanyApplication.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\CompanyApplication.Business.AssemblyInfoInputs.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\CompanyApplication.Business.AssemblyInfo.cs
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\CompanyApplication.Business.csproj.CoreCompileInputs.cache
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\CompanyApplication.Business.csproj.CopyComplete
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\CompanyApplication.Business.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\refint\CompanyApplication.Business.dll
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\CompanyApplication.Business.pdb
+C:\Users\Uncle Nurlan\Desktop\CompanyApplication\CompanyApplication.Business\obj\Debug\net7.0\ref\CompanyApplication.Business.dll
