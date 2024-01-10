@@ -72,7 +72,82 @@ namespace CompanyApplication
                 Helper.ChangeTextColor(ConsoleColor.Green, "Employee was created successfully");
             }
         }
-        public void ViewEmployeeSwitch()
+
+        public void UpdateEmployeeSwitch()
+        {
+            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Send an empty text if you don't want to change information. Enter the ID of the employee you want to edit");
+            int id = 0;
+            bool isValidInput = false;
+            while (!isValidInput)
+            {
+                string input = Console.ReadLine();
+
+                if (int.TryParse(input, out id))
+                {
+                    isValidInput = true;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid number for ID.");
+                }
+            }
+
+            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new name");
+            string name = Console.ReadLine();
+
+            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new surname");
+            string surname = Console.ReadLine();
+
+            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new age");
+            int age = 0;
+            bool isValidAge = false;
+            while (!isValidAge)
+            {
+                string ageInput = Console.ReadLine();
+
+                if (int.TryParse(ageInput, out age))
+                {
+                    if (age > 15 && age < 100)
+                    {
+                        isValidAge = true;
+                    }
+                    else
+                    {
+                        Helper.ChangeTextColor(ConsoleColor.Red, "Enter a number between 16-99");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid number for age.");
+                }
+            }
+
+            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new address");
+            string address = Console.ReadLine();
+
+            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new department name");
+            string departmentName = Console.ReadLine();
+
+            Employee updatedEmployee = new Employee
+            {
+                Name = string.IsNullOrWhiteSpace(name) ? null : name,
+                Surname = string.IsNullOrWhiteSpace(surname) ? null : surname,
+                Age = age,
+                Address = string.IsNullOrWhiteSpace(address) ? null : address,
+                Department = string.IsNullOrWhiteSpace(departmentName) ? null : new Department { Name = departmentName }
+            };
+
+            if (_employeeService.Update(id, updatedEmployee, departmentName) is null)
+            {
+                Helper.ChangeTextColor(ConsoleColor.Red, "Something went wrong");
+            }
+            else
+            {
+                Helper.ChangeTextColor(ConsoleColor.Green, "Employee was updated successfully");
+            }
+        }
+    
+    public void ViewEmployeeSwitch()
         {
             Helper.ChangeTextColor(ConsoleColor.White, "Would you like to...\n" +
                     "1)See an employee with specific ID\n" +
@@ -228,72 +303,6 @@ namespace CompanyApplication
                     break;
             }
 
-        }
-        public void UpdateEmployeeSwitch()
-        {
-            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Send an empty text if you don't want to change information. Enter the ID of the employee you want to edit");
-            int id = 0;
-            bool isValidInput = false;
-            while (!isValidInput)
-            {
-                string input = Console.ReadLine();
-
-                if (int.TryParse(input, out id))
-                {
-                    isValidInput = true;
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Please enter a valid number for ID.");
-                }
-            }
-            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new name");
-            string name = Console.ReadLine();
-            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new surname");
-            string surname = Console.ReadLine();
-            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new age");
-            int age = 0;
-            bool isValidIAge = false;
-            while (!isValidIAge)
-            {
-                string input = Console.ReadLine();
-
-                if (int.TryParse(input, out age))
-                {
-                    if ((age > 15) && (age < 100))
-                    {
-                        isValidInput = true;
-                        break;
-                    }
-                    else
-                    {
-                        Helper.ChangeTextColor(ConsoleColor.Red, "Enter a number between 16-99");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Please enter a valid number for age.");
-                }
-            }
-            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new address");
-            string address = Console.ReadLine();
-            Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new department name");
-            string departmentName = Console.ReadLine();
-            Employee newEmployee = _employeeService.ViewById(id);
-            Department EmpDepart = _departmentService.View(departmentName);
-            newEmployee.Name = newEmployee.Name ?? name;
-            newEmployee.Surname = newEmployee.Surname ?? name;
-            newEmployee.Age = age;
-            newEmployee.Address = newEmployee.Address ?? address;
-            newEmployee.Department = newEmployee.Department ?? EmpDepart;
-            if (_employeeService.Update(id, newEmployee, departmentName) is null)
-            {
-                Helper.ChangeTextColor(ConsoleColor.Red, "Something went wrong");
-            }
-            else
-            {
-                Helper.ChangeTextColor(ConsoleColor.Green, "Employee was updated successfully");
-            }
         }
 
         public void DeleteEmployeeSwitch()

@@ -43,17 +43,41 @@ namespace CompanyApplication.Business.Services
 
         public Employee Update(int id, Employee employee, string departmentName)
         {
-            var existEmployee = _employeeRepository.View(e=>e.Id == id);
+            var existEmployee = _employeeRepository.View(e => e.Id == id);
             if (existEmployee is null) return null;
-            var existDepartment = _departmentRepository.View(d=>d.Name==departmentName);
+
+            var existDepartment = _departmentRepository.View(d => d.Name == departmentName);
             if (existDepartment is null) return null;
-            existEmployee.Name = employee.Name??existEmployee.Name;
-            existEmployee.Surname = employee.Surname ?? existEmployee.Surname;
-            existEmployee.Age = employee.Age;
-            existEmployee.Address = employee.Address ?? existEmployee.Address;
-            existEmployee.Department = existDepartment;
+
+            if (!string.IsNullOrWhiteSpace(employee.Name))
+            {
+                existEmployee.Name = employee.Name;
+            }
+
+            if (!string.IsNullOrWhiteSpace(employee.Surname))
+            {
+                existEmployee.Surname = employee.Surname;
+            }
+
+            if (!string.IsNullOrWhiteSpace(employee.Address))
+            {
+                existEmployee.Address = employee.Address;
+            }
+
+            if (employee.Department != null && !string.IsNullOrWhiteSpace(employee.Department.Name))
+            {
+                existEmployee.Department = employee.Department;
+            }
+
+            if (employee.Age > 15 && employee.Age < 100)
+            {
+                existEmployee.Age = employee.Age;
+            }
             return _employeeRepository.Update(existEmployee) ? existEmployee : null;
         }
+
+
+
 
         public List<Employee> ViewAll()
         {

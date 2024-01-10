@@ -216,13 +216,16 @@ namespace CompanyApplication
                     Console.WriteLine("Invalid input. Please enter a valid number for ID.");
                 }
             }
+
             Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new name");
             string name = Console.ReadLine();
+
             while ((_departmentService.View(name) is not null) && (_departmentService.View(name).Id != id))
             {
                 Helper.ChangeTextColor(ConsoleColor.Red, $"There is already a department called {name}");
                 name = Console.ReadLine();
             }
+
             Helper.ChangeTextColor(ConsoleColor.DarkYellow, "Enter new capacity");
             int capacity = 0;
             bool isValidCap = false;
@@ -248,17 +251,18 @@ namespace CompanyApplication
                     Console.WriteLine("Invalid input. Please enter a valid number for capacity.");
                 }
             }
-            Department newDepartment = (_departmentService.View(name));
+            Department newDepartment = _departmentService.View(id);
             newDepartment.Capacity = capacity;
-            newDepartment.Name = newDepartment.Name ??name;
+            newDepartment.Name = string.IsNullOrWhiteSpace(name) ? newDepartment.Name : name;
             if (_departmentService.Update(id, newDepartment, capacity) is null)
             {
                 Helper.ChangeTextColor(ConsoleColor.Red, "Something went wrong");
             }
             else
             {
-                Helper.ChangeTextColor(ConsoleColor.Green, "Employee was updated successfully");
+                Helper.ChangeTextColor(ConsoleColor.Green, "Department was updated successfully");
             }
         }
+
     }
 }

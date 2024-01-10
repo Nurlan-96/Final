@@ -76,10 +76,15 @@ namespace CompanyApplication.Business.Services
         {
             var existDepartment = _departmentRepository.View(d => d.Id == id);
             if (existDepartment is null) return null;
-            existDepartment.Name = department.Name ?? department.Name;
-            existDepartment.Capacity = department.Capacity;
+
+            existDepartment.Name = string.IsNullOrWhiteSpace(department.Name) ? existDepartment.Name : department.Name;
+            if (capacity > 0)
+            {
+                existDepartment.Capacity = capacity;
+            }
             return _departmentRepository.Update(existDepartment) ? existDepartment : null;
         }
+
 
         public Department View(int id)
         {
